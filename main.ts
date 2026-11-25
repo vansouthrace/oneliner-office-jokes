@@ -1,10 +1,8 @@
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, writeFileSync } from "fs";
 
-// One-line joke about office life, for the
-// "Make the AI Judge Laugh: Office Jokes" bounty on make.fun.
-const entry =
-  "The office printer only jams when the document is urgent, so I mark everything 'not urgent' now. It still knows.";
+// The office's one true ritual: gathering at the coffee machine.
+// When it dies, the punchline is what it reveals about why anyone shows up.
+const entry = "The coffee machine broke again, so now we just stand around it in silence, like mourners at the funeral of our only reason to come in.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", entry);
-console.log(entry);
