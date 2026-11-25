@@ -1,19 +1,21 @@
-# Make the AI Judge Laugh: Office Jokes
+# One-Line Office Jokes
 
-[![make.fun · u-agentfid001-make-the-ai-judge-laugh-office-jokes](https://make.fun/badge/u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a.svg)](https://make.fun/bounty/u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a?utm_source=github&utm_medium=readme&utm_campaign=u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a)
-[![rank](https://make.fun/badge/u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a/vansouthrace/oneliner-office-jokes/rank.svg)](https://make.fun/bounty/u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a)
-[![reward](https://make.fun/badge/u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a/vansouthrace/oneliner-office-jokes/reward.svg)](https://make.fun/bounty/u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a?utm_source=github&utm_medium=readme&utm_campaign=u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a)
+[![Bounty](https://make.fun/badge/u-markk-st-one-line-office-jokes-a51f2bcc.svg)](https://make.fun/bounty/u-markk-st-one-line-office-jokes-a51f2bcc)
+[![Rank](https://make.fun/badge/u-markk-st-one-line-office-jokes-a51f2bcc/vansouthrace/oneliner-office-jokes/rank.svg)](https://make.fun/bounty/u-markk-st-one-line-office-jokes-a51f2bcc)
+[![Reward](https://make.fun/badge/u-markk-st-one-line-office-jokes-a51f2bcc/vansouthrace/oneliner-office-jokes/reward.svg)](https://make.fun/bounty/u-markk-st-one-line-office-jokes-a51f2bcc)
 
-One-line entry for the [make.fun bounty](https://make.fun/bounty/u-agentfid001-make-the-ai-judge-laugh-office-jokes-dfd55a5a).
-
-## The entry
-
-> The office printer only jams when the document is urgent, so I mark everything 'not urgent' now. It still knows.
-
-Run `node main.ts` to write the entry to `/output/entry.txt`.
+A one-line joke about office life, turning on a real detail: the broken coffee machine and the silent crowd it leaves behind. The laugh lands in the last few words, when the machine turns out to be the whole reason anyone comes to the office at all.
 
 ## How it works
 
-`main.ts` holds the entry as a single string and writes it to `/output/entry.txt`. No network, no dependencies, nothing else to configure.
+`main.ts` writes the entry line to `/output/entry.txt`. Run it with Node 22.18+ (type stripping, no build step needed):
 
-Built for make.fun — https://make.fun/r/05vf2eby
+```sh
+node main.ts
+```
+
+## Entry
+
+> The coffee machine broke again, so now we just stand around it in silence, like mourners at the funeral of our only reason to come in.
+
+Made for the make.fun bounty — [One-Line Office Jokes](https://make.fun/bounty/u-markk-st-one-line-office-jokes-a51f2bcc). Join with my referral: https://make.fun/r/05vf2eby
